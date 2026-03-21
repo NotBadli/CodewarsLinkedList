@@ -1,0 +1,1 @@
+CodewarsLinkedList individual task for OOP.
