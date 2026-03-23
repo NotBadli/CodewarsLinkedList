@@ -7,7 +7,7 @@ def reverse(head):
     def _reverse(current, previous):
         if current is None:
             return previous
-        next = current.next
+        nxt = current.next
         current.next = previous
-        return _reverse(next, current)
+        return _reverse(nxt, current)
     return _reverse(head, None)
